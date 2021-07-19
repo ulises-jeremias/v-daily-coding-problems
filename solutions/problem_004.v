@@ -58,8 +58,10 @@ fn main() {
 		children: [c, b, d]
 	}
 
+	assert is_symmetric(a)
 	println(if is_symmetric(a) { '$a.str() is symmetric' } else { '$a.str() is not symmetric' })
 
 	c.val = 4
+	assert !is_symmetric(a)
 	println(if is_symmetric(a) { '$a.str() is symmetric' } else { '$a.str() is not symmetric' })
 }
