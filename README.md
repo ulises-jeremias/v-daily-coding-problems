@@ -1,4 +1,4 @@
-# v-daily-coding-problems
+# V Daily Coding Problems
 
 V solutions to problems sent by dailycodingproblem.com
 
